@@ -2,17 +2,19 @@ body {
   margin: 0;
 }
 
-.intro {
-  background-color: darkblue;
+.first-cont {
+  background-color: #1F2937;
   display: flex;
   flex-direction: column;
-  padding: 0 180px;
+  padding: 0 80px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .logo {
@@ -26,33 +28,46 @@ ul {
   list-style: none;
 }
 
-.main-container {
+.main-content {
   padding: 100px 0;
   display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
 }
 
 .main-texts {
   width: 500px;
 }
 
-.hero-title {
-  font-size: 50px;
+.main-title {
+  font-size: 48px;
+  font-weight: 800px;
+  color: #F9FAF8;
   margin: 0;
 }
 
-.hero-text {
+.main-text {
   margin: 0;
   margin-bottom: 15px;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
-.buttons {
+.main-buttons {
   display: flex;
   gap: 30px;
-  width: 200px;
-  height: 20px;
+  width: 500px;
+  height: 30px;
 }
 
 button {
-  flex: 1;
   border-radius: 5px;
+  flex: 1;
+  background-color: #3882F6;
+  color: #E5E7EB;
+}
+
+.dino-run {
+  width: 500px;
 }
