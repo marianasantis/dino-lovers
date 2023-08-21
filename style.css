@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.intro {
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  padding: 0 180px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.main-container {
+  padding: 100px 0;
+  display: flex;
+}
+
+.main-texts {
+  width: 500px;
+}
+
+.hero-title {
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero-text {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  width: 200px;
+  height: 20px;
+}
+
+button {
+  flex: 1;
+  border-radius: 5px;
+}
