@@ -1,6 +1,5 @@
-body {
-  margin: 0;
-}
+
+/* everything related to the first container */
 
 .first-cont {
   background-color: #1F2937;
@@ -28,7 +27,7 @@ ul {
   list-style: none;
 }
 
-.main-content {
+.first-cont .content {
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
@@ -36,25 +35,25 @@ ul {
   align-items: center;
 }
 
-.main-texts {
+.first-cont .texts {
   width: 500px;
 }
 
-.main-title {
+.first-cont .title {
   font-size: 48px;
-  font-weight: 800px;
   color: #F9FAF8;
   margin: 0;
+  font-weight: 800;
 }
 
-.main-text {
+.first-cont .text {
   margin: 0;
   margin-bottom: 15px;
   color: #E5E7EB;
   font-size: 18px;
 }
 
-.main-buttons {
+.first-cont .buttons {
   display: flex;
   gap: 30px;
   width: 500px;
@@ -70,4 +69,42 @@ button {
 
 .dino-run {
   width: 500px;
+}
+
+/* everything related to the second container */
+
+.second-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-cont .main-title {
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 800px;
+}
+
+.second-cont .items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.second-cont .item-img {
+  width: 250px;
+  height: 250px;
+  border: 8px solid #3882F6;
+}
+
+
+.second-cont .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-text ul {
+  display: flex;
+  flex-direction: column;
 }
