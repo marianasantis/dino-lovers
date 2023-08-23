@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* everything related to the first container */
 
@@ -6,6 +15,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 80px;
+  overflow: hidden;
 }
 
 .header {
@@ -33,10 +43,14 @@ ul {
   justify-content: space-between;
   align-self: center;
   align-items: center;
+  border: 1px solid green;
 }
 
 .first-cont .texts {
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  border: 1px solid blue;
 }
 
 .first-cont .title {
@@ -56,8 +70,7 @@ ul {
 .first-cont .buttons {
   display: flex;
   gap: 30px;
-  width: 500px;
-  height: 30px;
+  flex-grow: 1  ;
 }
 
 button {
@@ -67,8 +80,13 @@ button {
   color: #E5E7EB;
 }
 
+.image {
+  flex: 1;
+  border: 1px solid red;
+}
+
 .dino-run {
-  width: 500px;
+  width: 100%;
 }
 
 /* everything related to the second container */
@@ -90,12 +108,15 @@ button {
   display: flex;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .second-cont .item-img {
   width: 250px;
   height: 250px;
   border: 8px solid #3882F6;
+  justify-content: center;
+  align-items: center;
 }
 
 
