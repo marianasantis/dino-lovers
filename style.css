@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-cont {
@@ -82,7 +83,7 @@ body {
 }
 
 .image {
-  flex: 2.3;
+  flex: 2.5;
 }
 
 .dino-run {
@@ -127,26 +128,39 @@ body {
 }
 
 .second-cont .item-text {
-  align-items: center;
-}
-
-.item-text ul.main {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  list-style: none;
 }
 
-.item-text ul.skills {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+.dino-skills {
+  align-self: center;
 }
 
-ul .dino-name, .dino-contact {
+.dino-skills ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.dino-name, .dino-contact {
   margin: 10px 0;
+  align-self: center;
+  font-size: 16px;
 }
 
+/* everything related to the third container */
+
+.third-cont {
+  background-color: #E5E7EB;
+}
+
+.third-cont .quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.third-cont .quote-creator {
+  font-size: 24px;
+}
