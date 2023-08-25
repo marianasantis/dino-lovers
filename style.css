@@ -31,7 +31,7 @@ body {
   height: 70px;
 }
 
-ul {
+.header ul {
   display: flex;
   gap: 40px;
   list-style: none;
@@ -43,14 +43,12 @@ ul {
   justify-content: space-between;
   align-self: center;
   align-items: center;
-  border: 1px solid green;
 }
 
 .first-cont .texts {
   display: flex;
   flex-direction: column;
   flex: 3;
-  border: 1px solid blue;
 }
 
 .first-cont .title {
@@ -73,16 +71,17 @@ ul {
   flex-grow: 1  ;
 }
 
-button {
+.button {
   border-radius: 5px;
   flex: 1;
   background-color: #3882F6;
   color: #E5E7EB;
+  text-align: center;
+  text-decoration: none;
 }
 
 .image {
-  flex: 1;
-  border: 1px solid red;
+  flex: 2.3;
 }
 
 .dino-run {
@@ -112,8 +111,8 @@ button {
 }
 
 .second-cont .item-img {
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 210px;
   border: 8px solid #3882F6;
   justify-content: center;
   align-items: center;
@@ -123,9 +122,30 @@ button {
 .second-cont .item {
   display: flex;
   flex-direction: column;
+  width: 246px;
 }
 
-.item-text ul {
+.second-cont .item-text {
+  align-items: center;
+}
+
+.item-text ul.main {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style: none;
 }
+
+.item-text ul.skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+ul .dino-name, .dino-contact {
+  margin: 10px 0;
+}
+
