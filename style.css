@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .main-cont {
@@ -72,7 +75,7 @@ body {
   flex-grow: 1  ;
 }
 
-.button {
+.first-cont .button {
   border-radius: 5px;
   flex: 1;
   background-color: #3882F6;
@@ -95,7 +98,7 @@ body {
 .second-cont {
   display: flex;
   flex-direction: column;
-  padding: 40px 0 100px 0;
+  padding: 40px 40px 100px;
 }
 
 .second-cont .main-title {
@@ -184,14 +187,91 @@ body {
 
 .third-cont {
   background-color: #E5E7EB;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-cont .quote {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0 300px;
+  gap: 20px;
 }
 
 .third-cont .quote-text {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937;
+  font-weight: 300;
+  align-self: center;
 }
 
 .third-cont .quote-creator {
   font-size: 24px;
+  align-self: flex-end;
+}
+
+/* everything related to the fourth container */
+
+.fourth-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.fourth-cont .container {
+  background-color: #3882F6;
+  color: white;
+  padding: 60px;
+  border-radius: 15px;
+  display: flex;
+  gap: 90px;
+}
+
+.fourth-cont .texts {
+  flex: 2.5;
+}
+
+.fourth-cont .title{
+  margin: 5px 0;
+  font-size: 25px;
+}
+
+.fourth-cont .text {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.fourth-cont .button {
+  background-color: #3882F6;
+  color: white;
+  border: 3px solid white;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  height: 70px;
+}
+
+/* everything related to the footer */
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.footer p {
+  color: white;
+  margin: 5px 0;
+  align-self: center;
 }
