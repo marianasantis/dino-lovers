@@ -247,7 +247,6 @@ body {
 
 .fourth-cont .button {
   background-color: #3882F6;
-  color: white;
   border: 3px solid white;
   border-radius: 15px;
   font-size: 15px;
@@ -259,6 +258,11 @@ body {
   text-align: center;
   align-self: center;
   height: 70px;
+}
+
+.fourth-cont .button-text {
+  text-decoration: none;
+  color: white;
 }
 
 /* everything related to the footer */
