@@ -95,11 +95,11 @@ body {
 .second-cont {
   display: flex;
   flex-direction: column;
+  padding: 40px 0 100px 0;
 }
 
 .second-cont .main-title {
   align-self: center;
-  margin-top: 40px;
   margin-bottom: 40px;
   font-size: 36px;
   font-weight: 800px;
@@ -118,8 +118,12 @@ body {
   border: 8px solid #3882F6;
   justify-content: center;
   align-items: center;
+  background-image: url(./images/field.jpg);
 }
 
+.item-img.air {
+  background-image: url(./images/air.jpg);
+}
 
 .second-cont .item {
   display: flex;
@@ -128,12 +132,39 @@ body {
 }
 
 .second-cont .item-text {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
+  background-color: #E5E7EB;
+  border-radius: 30px;
+  padding: 7px;
+  box-shadow: 10px 5px 5px #3882F6;
+}
+
+.dino-header {
+  display: flex;
+  align-self: center;
+}
+
+.dino-name {
+  background-color: #3882F6;
+  box-shadow: 0px 5px 0px #000000;
+  border-radius: 30px;
+  font-weight: 800;
+  padding: 5px;
+
+}
+
+.dino-emote {
+  margin: 10px 5px;
+  padding: 5px 0;
+  font-weight: 800;
+  
 }
 
 .dino-skills {
   align-self: center;
+  margin: 10px 0 10px 0;
 }
 
 .dino-skills ul {
