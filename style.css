@@ -41,6 +41,11 @@ body {
   list-style: none;
 }
 
+.header a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
 .first-cont .content {
   padding: 100px 0;
   display: flex;
@@ -83,6 +88,7 @@ body {
   text-align: center;
   text-decoration: none;
   padding: 4px;
+  font-weight: bold;
 }
 
 .image {
